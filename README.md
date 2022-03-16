@@ -5,7 +5,8 @@
 2. `npm init` - Create **package.json** file 
 3. `npm init wdio` - Create webdriverIO and setup **node_modules**
 4. `npm run wdio` - Run tests 
-5. `npx wdio run wdio.conf`  
+5. `npx wdio run wdio.conf`   
+6. `npx  wdio --spec ./test\specs\main.e2e.js` - to run specific file    
 
 <br/>
 <br/>
@@ -18,7 +19,9 @@
 `a=Text` - by tag text  
 `//*[@id="text"]` - difficult select by xPath  
 `a[href="/logout"]` - by 'a' link tag and its link href adress. He says the it is CSS selector  
-[https://webdriver.io/docs/selectors] - more info about selectors 
+[https://webdriver.io/docs/selectors] - more info about selectors  
+`$` - one element    
+`$$` - all the elements      
 <br/>
 <br/>
 
@@ -34,10 +37,10 @@
 <br/>
 
 ## Insights
-async - add before callBack function in the 'it' block  
-await - add before each method in the 'it' block. It wil wait till the right parts is done  
+`async` - add before callBack function in the 'it' block  
+`await` - add before each method in the 'it' block. It wil wait till the right parts is done  
 first of all, create const for each element   
-POM - it is simply create selectors in the right page file   
-get - creates property which will be as function, it will return some value when its called    
-
+`POM` - it is simply create selectors in the right page file   
+`get` - creates property which will be as function, it will return some value when its called      
+`{gte: 1}` - >=1    
 
