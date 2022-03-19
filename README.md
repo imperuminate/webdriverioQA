@@ -4,7 +4,7 @@
 1. `git init` - Create git repository
 2. `npm init` - Create **package.json** file 
 3. `npm init wdio` - Create webdriverIO and setup **node_modules**
-4. `npm run wdio` - Run tests 
+4. `npm run wdio` - Run tests
 5. `npx wdio run wdio.conf`   
 6. `npx  wdio --spec ./test\specs\main.e2e.js` - to run specific file    
 
