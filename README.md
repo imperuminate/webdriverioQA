@@ -42,5 +42,6 @@
 first of all, create const for each element   
 `POM` - it is simply create selectors in the right page file   
 `get` - creates property which will be as function, it will return some value when its called      
-`{gte: 1}` - >=1    
-
+`{gte: 1}` - >=1   
+`.getText()` - extract text from the element. We can use it with `toEqual('text')` assertion 
+`browser.pause(5000)` - pause 5 sec.
