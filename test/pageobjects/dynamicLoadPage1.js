@@ -2,7 +2,7 @@ const Page = require('./page')
 
 class DynamicPage extends Page{
 
-    get startButton() {return $('#start')}
+    get startButton() {return $('#start button')}
 
     get finishText() {return $('#finish h4')}
 
