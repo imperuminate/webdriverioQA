@@ -6,7 +6,8 @@
 3. `npm init wdio` - Create webdriverIO and setup **node_modules**
 4. `npm run wdio` - Run tests
 5. `npx wdio run wdio.conf`   
-6. `npx  wdio --spec ./test\specs\main.e2e.js` - to run specific file    
+6. `npx  wdio --spec ./test\specs\main.e2e.js` - to run specific file      
+`npx wdio` run tests in parallel. 'maxInstances: 5' - can configure this param   
 
 <br/>
 <br/>
@@ -44,4 +45,6 @@ first of all, create const for each element
 `get` - creates property which will be as function, it will return some value when its called      
 `{gte: 1}` - >=1   
 `.getText()` - extract text from the element. We can use it with `toEqual('text')` assertion 
-`browser.pause(5000)` - pause 5 sec.
+`browser.pause(5000)` - pause 5 sec.   
+`elemrnt.waitForDisplayed()` - it is a better way to wait for the element. hardcode is bad in this case `await loading.waitForDisplayed()`   
+`{reverse: true}` - this is 'reverse flag'. you can create oposid func by this flag `.waitForDisplayed({reverse: true})`  

@@ -1,6 +1,6 @@
 const mainPage = require("../pageobjects/mainPage")
 
-describe.skip('Main page', async () => {
+describe('Main page', async () => {
 
     it('Verify list items', async () => {
 
