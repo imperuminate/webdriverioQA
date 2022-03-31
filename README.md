@@ -44,10 +44,6 @@ first of all, create const for each element
 `get` - creates property which will be as function, it will return some value when its called      
 `{gte: 1}` - >=1      
 `.getText()` - extract text from the element. We can use it with `toEqual('text')` assertion 
-<<<<<<< Updated upstream
-`browser.pause(5000)` - pause 5 sec.
-=======
 `browser.pause(5000)` - pause 5 sec.     
 `elemrnt.waitForDisplayed()` - it is a better way to wait for the element. hardcode is bad in this case `await loading.waitForDisplayed()`     
 `{reverse: true}` - this is 'reverse flag'. you can create oposid func by this flag `.waitForDisplayed({reverse: true})`    
->>>>>>> Stashed changes
